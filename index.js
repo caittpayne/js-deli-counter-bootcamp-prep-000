@@ -10,6 +10,6 @@ function nowServing(katzDeliLine) {
   }
   
   else{
-    return('there is nobody waiting to be served!')
+    return('There is nobody waiting to be served!')
   }
 }
