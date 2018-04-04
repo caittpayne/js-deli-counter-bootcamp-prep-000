@@ -2,5 +2,5 @@ function takeANumber(katzDeliLine, name) {
   const katzDeli = [];
   katzDeli.push(katzDeliLine, name);
   
-  return (katzDeli.length -1)
+  return ('Welcome, ${name}. You are number ${katzDeli.length + 1} in line.')
 }
