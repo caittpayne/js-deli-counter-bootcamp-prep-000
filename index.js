@@ -1,6 +1,6 @@
 function takeANumber(katzDeliLine, name) {
   const katzDeli = [];
-  katzdeli.push(katzDeliLine);
+  katzDeli.push(katzDeliLine, name);
   
   return (katzDeli.length -1)
 }
