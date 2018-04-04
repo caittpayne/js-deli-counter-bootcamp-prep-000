@@ -5,5 +5,8 @@ function takeANumber(katzDeliLine, name) {
 }
 
 function nowServing() {
-  katzDeliLine.unshift();
+  if(katzDeliLine.length > 0) {
+    
+  }
+  
 }
