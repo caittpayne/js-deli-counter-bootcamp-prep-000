@@ -5,9 +5,10 @@ function takeANumber(katzDeliLine, name) {
 }
 
 function nowServing(katzDeliLine) {
+  return (`Currently serving ${katzDeliLine[0]}.`)
+  
   if(katzDeliLine.length > 0) {
     
-    return (`Currently serving ${katzDeliLine[0]}.`)
     katzDeliLine.unshift();
   }
   
