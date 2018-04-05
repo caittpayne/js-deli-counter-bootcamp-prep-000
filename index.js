@@ -20,8 +20,10 @@ function currentLine(katzDeliLine) {
 else {
   const lineList = [];
   for(let i = 0; i < katzDeliLine.length; i++) {
-    katzDeliLine.push(i + 1 '.' )
+    katzDeliLine.push(i + 1 + '.' + katzDeliLine[i])
   }
+  
+  return lineList;
   
 }
 }
