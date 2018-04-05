@@ -20,7 +20,7 @@ function currentLine(katzDeliLine) {
 else {
   const lineList = [];
   for(let i = 0; i < katzDeliLine.length; i++) {
-    katzDeliLine.push('i')
+    katzDeliLine.push('1 + '.' + ka')
   }
   
 }
