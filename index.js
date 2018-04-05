@@ -6,9 +6,10 @@ function takeANumber(katzDeliLine, name) {
 
 function nowServing(katzDeliLine) {
   if(katzDeliLine.length === 0) {
+    return('There is nobdy waiting to be served!')
     
   }
   else {
-    r
+    return('Currently serving '+ katzDeliLine.shift() +'.')
   }
 }
