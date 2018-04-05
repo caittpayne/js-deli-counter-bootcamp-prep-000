@@ -20,10 +20,9 @@ function currentLine(katzDeliLine) {
 else {
   const lineList = [];
   for(let i = 0; i < katzDeliLine.length; i++) {
-    katzDeliLine.push(i + 1 + '.' + katzDeliLine[i])
+    katzDeliLine.push((i + 1) + '.' + katzDeliLine[i])
   }
   
-  return 'The line is currently: ' + lineList.join(', ');
-  
+  return('The line is currently: ' + lineList.join(', '))
 }
 }
