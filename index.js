@@ -23,7 +23,7 @@ else {
     katzDeliLine.push(i + 1 + '.' + katzDeliLine[i])
   }
   
-  return lineList;
+  return('The line is currently')
   
 }
 }
