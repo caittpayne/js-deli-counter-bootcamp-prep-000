@@ -19,7 +19,9 @@ function currentLine(katzDeliLine) {
 }
 else {
   const lineList = [];
-  for(let i = 0; i < katzDeliLine.length; i++)
+  for(let i = 0; i < katzDeliLine.length; i++) {
+    katzDeliLine.push('i')
+  }
   
 }
 }
